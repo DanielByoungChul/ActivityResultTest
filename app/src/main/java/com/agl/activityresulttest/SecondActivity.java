@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -31,5 +32,8 @@ public class SecondActivity extends AppCompatActivity {
         data.putExtra("country","korea");
         setResult(RESULT_OK,data);
 //        finish();
+
+
+        Log.i("TEST","TEST");
     }
 }
