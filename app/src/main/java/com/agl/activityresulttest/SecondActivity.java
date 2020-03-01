@@ -32,8 +32,5 @@ public class SecondActivity extends AppCompatActivity {
         data.putExtra("country","korea");
         setResult(RESULT_OK,data);
 //        finish();
-
-
-        Log.i("TEST","TEST");
     }
 }
